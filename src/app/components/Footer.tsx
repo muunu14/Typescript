@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="w-full h-[280px] pt-10 pb-10 pr-20 pl-20 flex items-center  bg-[#4338CA] ">
       <div className="w-full h-[200px] flex flex-row gap-30 justify-between">
         <div className="w-[247px] h-[200px] flex flex-col gap-3 ">
-          <img className="w-[92px] h-[20px] " src="Logo (1).png" alt="" />
+          <img className="w-[20px] h-[20px] " src="icn.png" alt="" />
           <div className="w-[247px] h-[20px] font-normal text-[14px] text-[#FAFAFA]">
             © 2024 Movie Z. All Rights Reserved.
           </div>
@@ -18,8 +18,8 @@ export const Footer = () => {
             <div className="w-[174px] h-[104px] flex flex-col gap-6">
               <div className="w-[174px] h-[40px] flex flex-row gap-3 items-center">
                 <img
-                  className="w-[13.33px] h-[10.67px]"
-                  src="Wifi icon.png"
+                  className="w-[13.33px] h-[13.67px]"
+                  src="mail.png"
                   alt=""
                 />
                 <div className="w-[146px] h-[40px] flex flex-col ">
@@ -34,7 +34,7 @@ export const Footer = () => {
               <div className="w-[158px] h-[40px] flex flex-row gap-3 items-center ">
                 <img
                   className="w-[13.26px] h-[13.29px]"
-                  src="Vector (2).png"
+                  src="phone.png"
                   alt=""
                 />
                 <div className="w-[130px] h-[40px] flex flex-col ">

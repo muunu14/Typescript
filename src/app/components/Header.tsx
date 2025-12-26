@@ -42,7 +42,7 @@ export const Header = () => {
     <div className="w-full h-[59px] flex flex-row justify-between pr-4 pl-4 bg-[#FFFFFF] items-center">
       <div className="w-full h-[36px] flex flex-row justify-between bg-[#FFFFFF] items-center">
         <div className="w-[92px] h-[20px] flex flex-row gap-2 items-center ">
-          <img className="w-[20px] h-[15px]" src="film.png" alt="" />
+          <img className="w-[20px] h-[20px]" src="Film.png" alt="" />
           <div className="text-[#4338CA] text-base font-bold">Movie Z</div>
         </div>
         <div className="w-[488px] h-[36px] flex flex-row gap-3 relative justify-center items-center">
@@ -74,14 +74,9 @@ export const Header = () => {
               </div>
             )}
           </Button>
-          <button className="w-[97px] h-[36px] border rounded-sm pt-2 pr-4 pb-2 pl-4 flex gap-2 bg-[#FFFFFF] border-[#E4E4E7] items-center">
-            <img className="w-[16px] h-[16px]" src="chevron-down.png" alt="" />
-            <div className="w-[41px] h-[20px] text-[14px] text-normal text-[#18181B]">
-              Genre
-            </div>
-          </button>
+
           <div className="w-[379px] h-[36px] border flex pr-3 pl-3 gap-[10px] border-[#E4E4E7] bg-[#FFFFFF] rounded-lg items-center ">
-            <img className="w-[16px] h-[16px]" src="search.png" alt="" />
+            <img className="w-[16px] h-[16px]" src="Search.png" alt="" />
             <input
               type="text"
               className="w-full h-full pt-2 pb-2 flex gap-[10px] text-normal text-[14px] text-[#71717A] "
@@ -89,8 +84,8 @@ export const Header = () => {
             />
           </div>
         </div>
-        <button className="w-[36px] h-[36px] flex justify-center items-center border rounded-md border-[#E4E4E7] bg-[#FFFFFF] ">
-          <img className="w-[16px] h-[16px]" src="moon.png" alt="" />
+        <button className="w-[36px] h-[36px] flex justify-center items-center  ">
+          <img className="" src="moon.png" alt="" />
         </button>
       </div>
     </div>

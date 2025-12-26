@@ -1,12 +1,12 @@
 import { UpComing } from "./UpComing";
-// import { Popular } from "./Popular";
+import { Popular } from "./Popular";
 import { TopRated } from "./TopRated";
 
 export const MovieCard = () => {
   return (
     <div>
       <UpComing />
-      {/* <Popular /> */}
+      <Popular />
       <TopRated />
     </div>
   );
